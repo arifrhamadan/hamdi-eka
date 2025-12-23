@@ -64,6 +64,12 @@
     <!-- Dependencies JS -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha256-5P1JGBOIxI7FBAvT/mb1fCnI5n/NhQKzNUuW7Hq0fMc=" crossorigin="anonymous"></script>
     <script src="./dist/guest.js"></script>
+
+</body>
+
+
+
+
 </head>
 
 <!-- Jika tidak menggunakan komentar, hapus atribut data-key dan data-url, serta abaikan file dashboard.html. -->
@@ -86,7 +92,7 @@
 
 <!-- <html lang="id" data-bs-theme="auto"> ['auto', 'dark', 'light'] -->
 
-<body data-key="d9faced3377732b0edf19e90d1bde0cd5de04801c75eb41743" data-url="https://api.ulems.my.id/" data-audio="./assets/music/pure-love-304010.mp3" data-confetti="true" data-time="2026-01-01 09:30:00">
+<body data-key="d9faced3377732b0edf19e90d1bde0cd5de04801c75eb41743" data-url="https://api.ulems.my.id/" data-audio="./assets/music/pure-love-304010.mp3" data-confetti="true" data-time="2026-01-11 09:30:00">
 
     <!-- Root Invitation -->
     <div class="row m-0 p-0 opacity-0" id="root">
@@ -325,8 +331,6 @@
                             </div>
                         </div>
 
-                        <p class="py-2 m-0" style="font-size: 0.95rem;">Demi kehangatan bersama, kami memohon kesediaan Anda untuk mengenakan dress code berikut:</p>
-
                         <!-- Love animation -->
                         <div class="position-relative">
                             <div class="position-absolute" style="top: 0%; left: 5%;">
@@ -355,70 +359,127 @@
                 <section class="bg-light-dark pb-3">
                     <div class="container text-center">
                         <h2 class="font-esthetic pt-3 mb-4" style="font-size: 2.25rem;">Love Gift</h2>
-                        <p class="mb-1" style="font-size: 0.95rem;">Dengan hormat, bagi Anda yang ingin memberikan tanda kasih kepada kami, dapat melalui:</p>
+                        <p class="mb-1" style="font-size: 0.95rem;">
+                            Dengan hormat, bagi Anda yang ingin memberikan tanda kasih kepada kami, dapat melalui:
+                        </p>
 
-                        <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start" data-aos="fade-up" data-aos-duration="2500">
+                        <!-- TRANSFER -->
+                        <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start">
                             <i class="fa-solid fa-money-bill-transfer"></i>
                             <p class="d-inline">Transfer</p>
 
+                            <!-- Hamdi -->
                             <div class="d-flex justify-content-between align-items-center mt-2">
-                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>Hamdi Ahmad Rizaldi</p>
-                                <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-bs-toggle="collapse" data-bs-target="#collapseTf"><i class="fa-solid fa-circle-info fa-sm me-1"></i>Info</button>
+                                <p class="m-0" style="font-size: 0.95rem;">
+                                    <i class="fa-regular fa-user me-1"></i>Hamdi Ahmad Rizaldi
+                                </p>
+                                <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#tfHamdi">
+                                    <i class="fa-solid fa-circle-info me-1"></i>Info
+                                </button>
                             </div>
 
-                            <div class="collapse" id="collapseTf">
-                                <hr class="my-2 py-1">
-                                <p class="m-0" style="font-size: 0.9rem;"><i class="fa-solid fa-building-columns me-1"></i>Bank Mandiri</p>
+                            <div class="collapse" id="tfHamdi">
+                                <hr class="my-2">
+                                <p class="m-0"><i class="fa-solid fa-building-columns me-1"></i>Bank Mandiri</p>
                                 <div class="d-flex justify-content-between align-items-center mt-2">
-                                    <p class="m-0 p-0" style="font-size: 0.85rem;"><i class="fa-solid fa-credit-card me-1"></i>1760003758941</p>
-                                    <!-- Ubah juga data-copy sesuai dengan no rekening -->
-                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="1234567891234" onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
+                                    <p class="m-0"><i class="fa-solid fa-credit-card me-1"></i>1760003758941</p>
+                                    <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                        data-copy="1760003758941"
+                                        onclick="undangan.util.copy(this)">
+                                        <i class="fa-solid fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Eka -->
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="m-0" style="font-size: 0.95rem;">
+                                    <i class="fa-regular fa-user me-1"></i>Eka Nuraeni
+                                </p>
+                                <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#tfEka">
+                                    <i class="fa-solid fa-circle-info me-1"></i>Info
+                                </button>
+                            </div>
+
+                            <div class="collapse" id="tfEka">
+                                <hr class="my-2">
+                                <p class="m-0"><i class="fa-solid fa-building-columns me-1"></i>Bank BCA</p>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <p class="m-0"><i class="fa-solid fa-credit-card me-1"></i>5737142154</p>
+                                    <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                        data-copy="5737142154"
+                                        onclick="undangan.util.copy(this)">
+                                        <i class="fa-solid fa-copy"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start" data-aos="fade-up" data-aos-duration="2500">
-                            <i class="fa-solid fa-qrcode fa-lg"></i>
-                            <p class="d-inline">Qris</p>
+                        <!-- QRIS -->
+                        <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start">
+                            <i class="fa-solid fa-qrcode"></i>
+                            <p class="d-inline">QRIS</p>
 
                             <div class="d-flex justify-content-between align-items-center mt-2">
-                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>Hamdi Ahmad Rizaldi</p>
-                                <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-bs-toggle="collapse" data-bs-target="#collapseQris"><i class="fa-solid fa-circle-info fa-sm me-1"></i>Info</button>
+                                <p class="m-0"><i class="fa-regular fa-user me-1"></i>Hamdi Ahmad Rizaldi</p>
+                                <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#qrisHamdi">
+                                    <i class="fa-solid fa-circle-info me-1"></i>Info
+                                </button>
                             </div>
 
-                            <div class="collapse" id="collapseQris">
-                                <hr class="my-2 py-1">
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <img src="./assets/images/placeholder.webp" data-src="./assets/images/donate.jpeg" alt="donate" class="img-fluid rounded-3 mx-auto bg-white">
-                                </div>
+                            <div class="collapse" id="qrisHamdi">
+                                <hr class="my-2">
+                                <img src="./assets/images/donate.jpeg"
+                                    class="img-fluid rounded-3 bg-white">
                             </div>
                         </div>
 
-                        <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start" data-aos="fade-up" data-aos-duration="2500">
-                            <i class="fa-solid fa-gift fa-lg"></i>
+                        <!-- GIFT -->
+                        <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start">
+                            <i class="fa-solid fa-gift"></i>
                             <p class="d-inline">Gift</p>
 
                             <div class="d-flex justify-content-between align-items-center mt-2">
-                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>Eka Nuraeni</p>
-                                <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-bs-toggle="collapse" data-bs-target="#collapseGift"><i class="fa-solid fa-circle-info fa-sm me-1"></i>Info</button>
+                                <p class="m-0"><i class="fa-regular fa-user me-1"></i>Eka Nuraeni</p>
+                                <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#giftEka">
+                                    <i class="fa-solid fa-circle-info me-1"></i>Info
+                                </button>
                             </div>
 
-                            <div class="collapse" id="collapseGift">
-                                <hr class="my-2 py-1">
+                            <div class="collapse" id="giftEka">
+                                <hr class="my-2">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <p class="m-0 p-0" style="font-size: 0.85rem;"><i class="fa-solid fa-phone-volume me-1"></i>0858-8863-6872</p>
-                                    <!-- Ubah juga data-copy sesuai dengan no hp -->
-                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="0812345678" onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
+                                    <p class="m-0"><i class="fa-solid fa-phone me-1"></i>0858-8863-6872</p>
+                                    <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                        data-copy="085888636872"
+                                        onclick="undangan.util.copy(this)">
+                                        <i class="fa-solid fa-copy"></i>
+                                    </button>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <p class="my-0 p-0 text-truncate me-2" style="font-size: 0.85rem;"><i class="fa-solid fa-location-dot me-1"></i>FQ88+P49, Jl. H. Usman, RT.02/RW.04, Kayu Manis, Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16169</p>
-                                    <!-- Ubah juga data-copy sesuai dengan alamat -->
-                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191." onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
+                                    <p class="m-0 text-truncate me-2">
+                                        <i class="fa-solid fa-location-dot me-1"></i>
+                                        FQ88+P49, Jl. H. Usman, RT.02/RW.04, Kayu Manis, Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16169
+                                    </p>
+                                    <button class="btn btn-outline-auto btn-sm rounded-4 py-0"
+                                        data-copy="Jl. H. Usman, Tanah Sereal, Bogor"
+                                        onclick="undangan.util.copy(this)">
+                                        <i class="fa-solid fa-copy"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
 
                 <!-- Comment -->
                 <section class="bg-light-dark my-0 pb-0 pt-3" id="comment">
@@ -459,12 +520,71 @@
                         </div>
 
                         <!-- Comments -->
-                        <div class="py-3 d-none" id="comments" data-loading="false"></div>
+                        <div class="py-3" id="comments"></div>
 
-                        <!-- Pagination -->
-                        <nav class="d-flex d-none justify-content-center mt-1 mb-0" id="pagination"></nav>
-                    </div>
-                </section>
+                        <!-- Button load comments -->
+                        <div class="text-center mb-3 d-none" id="load-comments-wrap">
+                        <button class="btn btn-outline-auto btn-sm rounded-pill shadow"
+                                id="load-comments-btn">
+                            💬 Lihat komentar lainnya
+                        </button>
+                        </div>
+
+                        <!-- Pagination (BIARKAN ADA, TAPI DISEMBUNYIKAN) -->
+                        <nav class="d-none" id="pagination"></nav>
+
+                        </div>
+                  </section>
+                            <script>
+                            document.addEventListener("undangan.open", () => {
+                            const comments   = document.getElementById("comments");
+                            const pagination = document.getElementById("pagination");
+                            const btnWrap    = document.getElementById("load-comments-wrap");
+                            const btn        = document.getElementById("load-comments-btn");
+
+                            if (!comments || !pagination || !btnWrap || !btn) return;
+
+                            let allowLoadOld = false;
+
+                            // Pagination tidak dipakai
+                            pagination.classList.add("d-none");
+
+                            // 🔥 HAPUS komentar lama SEKALI di awal (ini kuncinya)
+                            setTimeout(() => {
+                                if (!allowLoadOld) {
+                                comments.innerHTML = "";
+                                }
+                            }, 0);
+
+                            // Setelah user kirim komentar → tampilkan tombol
+                            document.addEventListener("undangan.comment.done", () => {
+                                if (!allowLoadOld) {
+                                btnWrap.classList.remove("d-none");
+                                pagination.classList.add("d-none");
+                                }
+                            });
+
+                            // Klik "lihat komentar lainnya"
+                            btn.addEventListener("click", () => {
+                                allowLoadOld = true;
+                                btnWrap.classList.add("d-none");
+                                pagination.classList.add("d-none");
+
+                                // Load ulang komentar lama
+                                comments.dispatchEvent(new Event("undangan.comment.show"));
+                            });
+                            });
+                            </script>
+
+                            <script>
+                            document.addEventListener("undangan.open", () => {
+                            const pagination = document.getElementById("pagination");
+
+                            if (pagination) {
+                                pagination.remove(); // 🔥 HAPUS TOTAL
+                            }
+                            });
+                            </script>
 
                 <!-- Wave Separator -->
                 <div class="svg-wrapper">
@@ -598,5 +718,4 @@
         </div>
     </div>
 </body>
-
 </html>
